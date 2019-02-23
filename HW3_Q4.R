@@ -1,0 +1,12 @@
+p<-0.65
+q<-1-p
+x1<-9
+m<-10
+n<-1
+k<-10
+fxa<-dhyper(x1,m,n,k)
+nb<-15
+xb<-10
+fxb<-dnbinom(xb,nb,p)
+xc<-2
+fxc<-dgeom(xc,p)
